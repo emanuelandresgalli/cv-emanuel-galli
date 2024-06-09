@@ -10,8 +10,8 @@ html {
     box-sizing: border-box;
   }
   *, *:before, *:after {
-    /* box-sizing: inherit;
-    scroll-snap-type: y mandatory; */
+    box-sizing: inherit;
+    /* scroll-snap-type: y mandatory;  */
   }
 html{
     font-size: 62.5%;
@@ -165,14 +165,27 @@ img{
 }
 
 .hero {
-    background-image: url(../fondo/desk-2.webp);
+    /* background-image: url(../fondo/desk-2.webp); */
+    background-image: url(../fondo/Me-PC.jpg);
    background-repeat: no-repeat;
     background-size:cover;
-    background-position: center;
+    background-position:center; 
     height: 450px;
   /*  padding: 20px;*/
     position: relative;
     margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+    .hero {
+        /* background-image: url(../fondo/desk-2.webp); */
+        background-image: url(../fondo/Me-PC.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center calc(95% + 10px); /* Ajusta verticalmente */
+height: 480px;
+position: relative;
+margin-bottom: 2rem;
+    }
 }
 .contenido-hero{
     position: absolute;
