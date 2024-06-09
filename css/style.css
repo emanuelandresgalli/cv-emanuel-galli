@@ -11,7 +11,7 @@ html {
   }
   *, *:before, *:after {
     box-sizing: inherit;
-    /* scroll-snap-type: y mandatory;  */
+    scroll-snap-type: y mandatory; 
   }
 html{
     font-size: 62.5%;
@@ -83,8 +83,18 @@ h1,h2,h3{
         display: block;
         align-items:center;
         font-size:x-large;
-        gap: 7rem;
+        gap: 10rem;
     }
+}
+.contenedor-sombra-sobremi-trabajitos-contacto{
+            height: 60rem;  
+            display: flex;
+            justify-content: center; /* Centra horizontalmente el contenido del contenedor */
+            align-items: center;
+            font-size: x-large;
+            gap: 7rem;
+            text-align: center; /* Asegura que el texto dentro de los elementos de bloque esté centrado */
+            padding: 2rem 0 ;
 }
 /* .tareas {
     font-size:large;
@@ -328,24 +338,26 @@ margin-bottom: 2rem;
 
 }
 .estudios {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
 }
 .estudios-linkedin{
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-transform: uppercase;
-    font-size: small;
+    text-transform: lowercase;
+    font-size: large;
+    color: black !important;
 }
 @media (min-width: 768px) {
     .estudios-linkedin{
         font-weight: 700;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-transform: uppercase;
+        text-transform: lowercase;
         font-size: larger;
     }
 }
-.tecnologias {
-    /* text-transform: lowercase; */
+a {
+    color: black !important;
+    /* text-decoration: none; */
 }
