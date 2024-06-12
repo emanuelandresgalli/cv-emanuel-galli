@@ -58,18 +58,31 @@ h1,h2,h3{
 
 @media (min-width: 780px) {
     .contenedor-sombra-sobremi {
-        height: 65rem;
+        height: 75rem;
         display: block;
         align-items: center;
         font-size:x-large;
     }
+}
+@media (min-width: 768px) {
     .contenedor-sombra-sobremi-trabajitos{
-        height: 60rem;
+        height: 130rem;
         display: block;
         align-items: center;
         font-size:x-large;
         gap: 7rem;
     }
+}
+@media (min-width: 900px) {
+    .contenedor-sombra-sobremi-trabajitos{
+        height: 85rem;
+        display: block;
+        align-items: center;
+        font-size:x-large;
+        gap: 7rem;
+    }
+}
+   @media (min-width: 768px) {
     .contenedor-sombra-sobremi-trabajitos-experiencia{
         height: 120rem;
         display: flex;
@@ -77,15 +90,21 @@ h1,h2,h3{
         font-size:x-large;
         gap: 7rem;
     }
-    .contenedor-sombra-sobremi-trabajitos-contacto{
-        height: 40rem;
-        padding-top: 10%;
-        display: block;
-        align-items:center;
-        font-size:x-large;
-        gap: 10rem;
+   }
+    @media (min-width: 768px) {
+        .contenedor-sombra-sobremi-trabajitos-contacto{
+            height: 40rem;
+            padding-top: 10%;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            font-size:x-large;
+            gap: 10rem;
+            text-align: center; 
+        }
     }
-}
+
+
 .contenedor-sombra-sobremi-trabajitos-contacto{
             height: 60rem;  
             display: flex;
@@ -95,6 +114,45 @@ h1,h2,h3{
             gap: 7rem;
             text-align: center; /* Asegura que el texto dentro de los elementos de bloque esté centrado */
             padding: 2rem 0 ;
+}
+.contenedor-sombra-sobremi-trabajitos-contacto-capacidades{
+    height: 125rem;
+    padding-top: 10%;
+    display: block;
+    align-items:center;
+    font-size:x-large;
+    gap: 10rem;
+    text-align: center;
+}
+
+@media (min-width: 760px) {
+    .contenedor-sombra-sobremi-trabajitos-contacto-capacidades{
+        height: 60rem;
+        padding-top: 10%;
+        display: block;
+        align-items:center;
+        font-size:x-large;
+        gap: 10rem;
+    }
+}
+.contenedor-sombra-sobremi-trabajitos-contacto-objetivos {
+    height: 120rem;
+    padding-top: 10%;
+    display: block;
+    align-items:center;
+    font-size:x-large;
+    gap: 10rem;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .contenedor-sombra-sobremi-trabajitos-contacto-objetivos {
+        height: 60rem;
+        padding-top: 10%;
+        display: block;
+        align-items:center;
+        font-size:x-large;
+        gap: 10rem;
+    }
 }
 /* .tareas {
     font-size:large;
@@ -240,8 +298,8 @@ margin-bottom: 2rem;
     font-weight: 700;
 }
 .servicio .iconos {
-    height: 15rem;
-    width: 15rem;
+    height: 10rem;
+    width: 10rem;
     background-color: var(--primario);
     border-radius: 50%;
     display: flex;
@@ -355,9 +413,21 @@ margin-bottom: 2rem;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-transform: lowercase;
         font-size: larger;
+        color: black;
     }
 }
 a {
-    color: black !important;
+    color: white !important;
     /* text-decoration: none; */
 }
+
+.botones-navegacion {
+    color: var(--blanco);
+}
+.links, .volver {
+    color:black !important;
+}
+
+/* .mi-contacto-capacidades{
+    height: 160rem;
+} */
