@@ -82,7 +82,7 @@ h1,h2,h3{
         gap: 7rem;
     }
 }
-   @media (min-width: 768px) {
+   @media (min-width: 868px) {
     .contenedor-sombra-sobremi-trabajitos-experiencia{
         height: 120rem;
         display: flex;
